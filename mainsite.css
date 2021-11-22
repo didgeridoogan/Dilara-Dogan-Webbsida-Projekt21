@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+main {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+}
+
+input {
+  border-style: none;
+  font-size: 1.1vmax;
+  color: rgb(65, 109, 167);
+  padding-left: 1%;
+  padding-right: 50%;
+  font-family: 'Signika', sans-serif;
+}
+
+.header {
+  background-image: url("bakgrund.jpg");
+  display: grid;
+}
+
+.spacing {
+  background-image: url("bakgrund.jpg");
+}
+
+h1 {
+  background-color: white;
+  padding: 2vh;
+  border-style: solid;
+  width: 70vh;
+  font-size: 2.3vmax;
+  font-family: 'Slackey', cursive;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.481);
+  color: rgb(96, 141, 201);
+}
+
+button {
+  color: rgb(65, 109, 167);
+  background-color: rgb(172, 209, 243);
+  margin: 0px;
+  width: 25%;
+  font-size: 105%;
+  border-style: solid;
+  border-width: 0.2vmax;
+  border-color: rgb(65, 109, 167);
+  font-family: 'Signika', sans-serif;
+}
+
+button:hover {
+  background-color: rgb(97, 154, 228);
+}
+
+.user {
+  display: grid;
+  padding-left: 5%;
+  padding-bottom: 10%;
+  background-color: rgb(172, 209, 243);
+  background-image: url("bakgrund.jpg");
+  width: auto;
+  border-style: solid;
+  border-bottom: none;
+  color: rgb(65, 109, 167);
+  font-family: 'Signika', sans-serif;}
+
+.user-info {
+  color: rgb(48, 82, 128);
+  font-weight: 700;
+  font-size: 2.3vh;
+}
+
+h2 {
+  padding-left: 10%;
+  padding-right: 27%;
+  padding-bottom: 15%;
+  border-style: solid;
+  border-left: none;
+  background-color: rgb(172, 209, 243);
+  background-image: url("bakgrund.jpg");
+  width: 37.1vmax;
+  border-color: rgb(96, 141, 201);
+  font-family: 'Signika', sans-serif;
+  font-weight: 700;
+
+}
+
+.user-about {
+  padding-left: 5%;
+  padding-top: 5%;
+  border-style: solid;
+  background-color: rgb(172, 209, 243);
+  background-image: url("bakgrund.jpg");
+  width: auto;
+  color: rgb(43, 79, 126);
+  border-color: rgb(96, 141, 201);
+  border-top: none;
+  font-family: 'Signika', sans-serif;
+  font-weight: 700;
+  font-size: 2vh;
+}
+
+.user-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 6fr;
+  background-image: url("bakgrund.jpg");
+}
+
+.user-avatar {
+  display: grid;
+  padding: 10%;
+}
+
+.user-facts {
+  padding-left: 7%;
+  padding-top: 4%;
+  background-color: rgb(255, 255, 255);
+  width: 10vmax;
+  border-style: solid;
+  border-color: rgb(96, 141, 201);
+  font-family: 'Signika', sans-serif;
+  font-size: 1.8vh;
+  font-weight: bold;
+}
+
+.user-description {
+  background-color: rgb(255, 255, 255);
+  width: 20vmax;
+  padding: 3%;
+  border-style: solid;
+  border-color: rgb(96, 141, 201);
+  font-family: 'Signika', sans-serif;
+  color: rgb(65, 109, 167);
+}
+
+.user-avatar {
+  border-style: solid;
+  border-color: rgb(96, 141, 201);
+}
+
+img {
+  border-style: solid;
+  border-width: 0.5vh;
+  border-color: rgb(64, 96, 138);
+}

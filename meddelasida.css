@@ -1,0 +1,29 @@
+.header {
+    background-color: white;
+    color: rgb(96, 141, 201);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.username {
+    background-color: white;
+}
+
+.user-text {
+    background-color: rgb(96, 141, 201);
+    padding: 2%;
+}
+
+input {
+    width: 100%;
+    font-size: 2.4vmax;
+    color: rgb(53, 83, 123);
+}
+
+button {
+    color: rgb(65, 109, 167);
+    background-color: rgb(172, 209, 243);
+    padding: 1%;
+    text-decoration: none;
+    font-size: 180%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
