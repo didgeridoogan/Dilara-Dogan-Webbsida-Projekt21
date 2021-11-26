@@ -1,15 +1,13 @@
-body {
-    background-color: rgb(65, 109, 167);
-}
-
 p {
-    background-image: url("bakgrund.jpg");
+    background-color: rgb(172, 209, 243);
     font-size: 3vmax;
     color: rgb(37, 67, 106);
+    width: auto;
+    padding: 2%;
+    font-family: 'Signika', sans-serif;
     border-style: solid;
-    border-width: 1vh;
-    border: rgb(25, 62, 109);
-    width: 70vh;
+    border-width: 0.2vmax;
+    border-color: rgb(27, 79, 146);
 }
 
 button {
@@ -18,5 +16,8 @@ button {
     padding: 1%;
     text-decoration: none;
     font-size: 150%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Signika', sans-serif;
+    border-style: solid;
+    border-width: 0.2vmax;
+    border-color: rgb(27, 79, 146);
 }
