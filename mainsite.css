@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
 
 main {
   display: grid;
@@ -7,12 +11,12 @@ main {
 }
 
 input {
-  width: 23vh;
+  width: 80%;
   font-size: 1.1vmax;
   color: rgb(65, 109, 167);
   padding-left: 1%;
   padding-right: 50%;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   border-style: solid;
   border-color: rgb(27, 79, 146);
   border-width: 0.24vh;
@@ -31,9 +35,9 @@ h1 {
   background-color: white;
   padding: 2vh;
   border-style: solid;
-  width: 70vh;
+  width: 80vh;
   font-size: 2.3vmax;
-  font-family: 'Slackey', cursive;
+  font-family: "Slackey", cursive;
 }
 
 body {
@@ -50,7 +54,7 @@ button {
   border-style: solid;
   border-width: 0.2vmax;
   border-color: rgb(27, 79, 146);
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
 }
 
 button:hover {
@@ -69,7 +73,8 @@ button:hover {
   border-bottom: none;
   border-width: 0.7vh;
   color: rgb(65, 109, 167);
-  font-family: 'Signika', sans-serif;}
+  font-family: "Signika", sans-serif;
+}
 
 .user-info {
   color: rgb(10, 33, 63);
@@ -86,10 +91,9 @@ h2 {
   background-image: url("bakgrund.jpg");
   width: 37.1vmax;
   border-color: rgb(27, 79, 146);
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   font-weight: 700;
   color: rgb(48, 82, 128);
-
 }
 
 .user-about {
@@ -104,7 +108,7 @@ h2 {
   border-color: rgb(27, 79, 146);
   border-top: none;
   border-width: 0.7vh;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   font-weight: 700;
   font-size: 2vh;
 }
@@ -128,7 +132,7 @@ h2 {
   color: rgb(10, 33, 63);
   border-style: solid;
   border-color: rgb(27, 79, 146);
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   font-size: 1.8vh;
   font-weight: bold;
 }
@@ -139,7 +143,7 @@ h2 {
   padding: 3%;
   border-style: solid;
   border-color: rgb(27, 79, 146);
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   color: rgb(65, 109, 167);
 }
 
